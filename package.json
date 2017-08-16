@@ -1,0 +1,45 @@
+{
+  "name": "one-task",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-apollo": "^1.4.10",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.2",
+    "react-scripts": "1.0.10",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha test/.setup.js test/**/*.test.jsx",
+    "eject": "react-scripts eject",
+    "lint": "eslint src & stylelint ./src/components/**/**.css",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.2.3",
+    "babel": "^6.23.0",
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-register": "^6.24.1",
+    "chai": "^4.1.0",
+    "css-modules-require-hook": "^4.0.6",
+    "enzyme": "^2.9.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "7.0.0",
+    "istanbul": "^0.4.5",
+    "jsdom": "^11.1.0",
+    "mocha": "^3.5.0",
+    "react-addons-test-utils": "^15.6.0",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0"
+  }
+}

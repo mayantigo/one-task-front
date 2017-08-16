@@ -1,0 +1,13 @@
+header {
+  background-color: #88f159;
+  height: 50px;
+  box-shadow: 0 0 5px gray;
+  margin-bottom: 30px;
+}
+
+header div {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}

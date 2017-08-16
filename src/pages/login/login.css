@@ -1,0 +1,12 @@
+#login {
+  width: 100%;
+}
+
+#login form {
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: #F4FFE0;
+  padding: 20px;
+  box-shadow: 0 0 2px gray;
+}
