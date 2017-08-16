@@ -5,7 +5,7 @@ const login = (state = [], action) => {
     case LOGIN:
       return { ...state, loggedIn: true, error: false };
     case LOGIN_INCORRECT:
-      return { ...state, loggedIn: true, error: true };
+      return { ...state, loggedIn: false, error: true };
     default:
       return state;
   }
