@@ -14,6 +14,7 @@
     "redux": "^3.7.2"
   },
   "scripts": {
+    "preinstall": "npm install -g serve",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "mocha test/.setup.js test/**/*.test.jsx",
