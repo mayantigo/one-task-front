@@ -9,6 +9,9 @@ export const login = (email, password) => {
 
   return {
     type: logged === true ? LOGIN : LOGIN_INCORRECT,
-    payload: logged,
+    payload: {
+      logged,
+      userName: email,
+    },
   };
 };

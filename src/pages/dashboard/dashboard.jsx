@@ -1,9 +1,11 @@
 import React from 'react';
 import './dashboard.css';
 
+import WeekSlide from '../../components/weekSlide';
+
 const Dashboard = () =>
   (<section>
-    hola
+    <WeekSlide />
   </section>);
 
 export default Dashboard;
