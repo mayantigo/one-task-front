@@ -3,9 +3,12 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
-import Header from './components/header';
 import Footer from './components/footer';
+import Dashboard from './pages/dashboard';
+import Private from './components/private';
+
 import Login from './containers/login';
+import Header from './containers/header';
 import reducers from './reducers';
 
 import './app.css';
@@ -13,6 +16,7 @@ import './app.css';
 const initial = {
   login: {
     error: false,
+    loggedIn: false,
   },
 };
 
@@ -22,7 +26,10 @@ const App = () =>
       <div className="App">
         <Header />
         <Router>
-          <Route component={Login} path="/" />
+          <div>
+            <Route exact component={Login} path="/" />
+            <Private component={Dashboard} path="/dashboard" />
+          </div>
         </Router>
         <Footer />
       </div>

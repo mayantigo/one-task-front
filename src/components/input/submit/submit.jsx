@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import { PropTypes } from 'prop-types';
 import './submit.css';
 
 const Submit = ({ id, text }) => <input id={id} type="submit" value={text} />;
