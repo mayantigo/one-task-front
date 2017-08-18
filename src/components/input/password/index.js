@@ -1,3 +1,3 @@
-import Password from './password';
+import Password from './Password';
 
 export default Password;

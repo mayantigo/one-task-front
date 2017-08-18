@@ -1,3 +1,3 @@
-import WeekDay from './weekDay';
+import WeekDay from './WeekDay';
 
 export default WeekDay;

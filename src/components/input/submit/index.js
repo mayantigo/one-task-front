@@ -1,3 +1,3 @@
-import Submit from './submit';
+import Submit from './Submit';
 
 export default Submit;

@@ -1,3 +1,3 @@
-import WeekSlide from './weekSlide';
+import WeekSlide from './WeekSlide';
 
 export default WeekSlide;

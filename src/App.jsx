@@ -5,7 +5,7 @@ import { createStore } from 'redux';
 
 import Footer from './components/footer';
 import Dashboard from './pages/dashboard';
-import Private from './components/private';
+import Private from './components/Private';
 
 import Login from './containers/login';
 import Header from './containers/header';
