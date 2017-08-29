@@ -7,7 +7,6 @@ import {
   Submit,
 } from '../../components/input';
 import Error from '../../components/error';
-import './login.css';
 
 const Login = ({ login, error }) => {
   const submit = (event) => {

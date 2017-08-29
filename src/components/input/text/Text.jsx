@@ -1,6 +1,5 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
-import './text.css';
 
 class Text extends React.Component {
   constructor(props) {
