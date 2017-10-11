@@ -1,10 +1,11 @@
 #login {
   width: 100%;
+  display: flex;
 }
 
 #login form {
   width: 40%;
-  margin: 0 auto;
+  margin: auto;
   border-radius: 3px;
   background-color: #F4FFE0;
   padding: 20px;
